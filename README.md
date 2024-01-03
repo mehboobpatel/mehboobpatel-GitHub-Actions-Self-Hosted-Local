@@ -10,6 +10,9 @@
 ./run.sh
 ```
 # you will see "2024-01-03 06:01:47Z: Listening for Jobs"
+![Screenshot](/src/image.png)
+
+* NOTE the runner you create is specific for that repo
 
 
 ## Comparing with Jenkins 
