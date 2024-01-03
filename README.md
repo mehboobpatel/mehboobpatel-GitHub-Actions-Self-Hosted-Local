@@ -32,3 +32,28 @@
 In conclusion, Jenkins is better suited for complex and large-scale automation tasks, while GitHub Actions is a more cost-effective and user-friendly solution for simple to moderate automation needs.
 
 
+# USING ACT (github actions locally )
+* note : you cant use self hosted when using act
+* we can check the actions workflow locally by using act though we dont have a good UI like on 
+* github but still its good for running workflows locally
+ 
+ https://github.com/nektos/act
+
+ ![Alt text](/src/act.png)
+
+ ```sh
+#bydefault runs on push event
+act 
+
+#list all actions for all events
+act -l 
+
+#run on spefic event
+act pull request
+
+#run a spefici job
+act -j test 
+
+#list the actions for a specific job
+act -j test -l
+ ```
